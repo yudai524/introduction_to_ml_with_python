@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "introduction-to-ml-with-python"
+version = "0.1.0"
+description = ""
+authors = ["Yudai Konishi <8362436+yudai524@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "introduction_to_ml_with_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
